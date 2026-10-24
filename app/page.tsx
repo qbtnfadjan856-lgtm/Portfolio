@@ -2,9 +2,9 @@
 
 import { useState } from "react";
 import {
-  ArrowDownRight, ArrowRight, ArrowUpRight, Menu, X, Code2, PanelsTopLeft,
+  ArrowDownRight, ArrowRight, ArrowUpRight, Menu, X, PanelsTopLeft,
   ShoppingBag, Workflow, Wrench, Sparkles, Instagram, MoveUpRight, Check,
-  Zap, Compass, Smartphone, CircleDot
+  Smartphone, CircleDot
 } from "lucide-react";
 
 const services = [
@@ -52,14 +52,8 @@ export default function Home() {
           <div className="hero-actions"><a className="button button-primary" href="#contato">Solicitar orçamento <ArrowRight size={17}/></a><a className="button button-quiet" href="#servicos">Conhecer serviços <ArrowDownRight size={17}/></a></div>
           <div className="hero-proof"><span><Check size={14}/> Design pensado para seu negócio</span><i></i><span><Check size={14}/> Experiência responsiva</span><i></i><span><Check size={14}/> Tecnologia com propósito</span></div>
         </div>
-        <div className="hero-art" aria-label="Composição abstrata tridimensional representando tecnologia e conexão digital">
-          <div className="art-ring art-ring-a"></div><div className="art-ring art-ring-b"></div>
-          <div className="art-orb"><div className="orb-core"></div><div className="orb-cut"></div><div className="orb-highlight"></div></div>
-          <div className="art-crosshair crosshair-a"></div><div className="art-crosshair crosshair-b"></div>
-          <div className="art-label label-top"><span className="live-dot"></span> DIGITAL, COM INTENÇÃO</div>
-          <div className="art-label label-bottom"><span>ADW</span><small>IDEIAS → CÓDIGO → RESULTADO</small></div>
-          <div className="floating-symbol symbol-a"><Code2 size={18}/></div><div className="floating-symbol symbol-b"><Layers3 size={17}/></div><div className="floating-symbol symbol-c"><Zap size={17}/></div>
-          <div className="art-line art-line-a"></div><div className="art-line art-line-b"></div>
+        <div className="hero-art" aria-label="Ilustração abstrata de tecnologia em azul elétrico">
+          <img className="hero-visual-image" src="/images/hero-visual.svg" alt="" />
         </div>
         <a className="scroll-cue" href="#servicos"><span>EXPLORE</span><span className="scroll-line"></span><ArrowDownRight size={15}/></a>
         <div className="hero-bottom-note"><span>ESTRATÉGIA</span><span className="note-separator">/</span><span>DESIGN</span><span className="note-separator">/</span><span>DESENVOLVIMENTO</span></div>
