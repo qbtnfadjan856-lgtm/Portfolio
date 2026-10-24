@@ -4,7 +4,7 @@ import { useState } from "react";
 import {
   ArrowDownRight, ArrowRight, ArrowUpRight, Menu, X, Code2, PanelsTopLeft,
   ShoppingBag, Workflow, Wrench, Sparkles, Instagram, MoveUpRight, Check,
-  Layers3, MousePointer2, Zap, Compass, Smartphone, Monitor, CircleDot
+  Layers3, Zap, Compass, Smartphone, CircleDot
 } from "lucide-react";
 
 const services = [
