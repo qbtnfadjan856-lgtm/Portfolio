@@ -1,10 +1,11 @@
 "use client";
 
 import { useState } from "react";
+import RotatingEarth from "@/components/ui/wireframe-dotted-globe";
 import {
   ArrowDownRight, ArrowRight, ArrowUpRight, Menu, X, PanelsTopLeft,
   ShoppingBag, Workflow, Wrench, Sparkles, Instagram, MoveUpRight, Check,
-  Smartphone, CircleDot
+  Smartphone, CircleDot, Compass, Zap
 } from "lucide-react";
 
 const services = [
@@ -53,7 +54,7 @@ export default function Home() {
           <div className="hero-proof"><span><Check size={14}/> Design pensado para seu negócio</span><i></i><span><Check size={14}/> Experiência responsiva</span><i></i><span><Check size={14}/> Tecnologia com propósito</span></div>
         </div>
         <div className="hero-art" aria-label="Ilustração abstrata de tecnologia em azul elétrico">
-          <img className="hero-visual-image" src="/images/hero-visual.svg" alt="" />
+          <RotatingEarth className="hero-globe" width={680} height={570} />
         </div>
         <a className="scroll-cue" href="#servicos"><span>EXPLORE</span><span className="scroll-line"></span><ArrowDownRight size={15}/></a>
         <div className="hero-bottom-note"><span>ESTRATÉGIA</span><span className="note-separator">/</span><span>DESIGN</span><span className="note-separator">/</span><span>DESENVOLVIMENTO</span></div>
